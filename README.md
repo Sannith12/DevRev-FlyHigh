@@ -1,7 +1,9 @@
-Flight Ticket Booking System
-This project is a Flight Ticket Booking System that allows users to book flights, view their booking history, and allows administrators to manage flights by adding and deleting them. The application is built using HTML, CSS, JavaScript, and utilizes Firebase for data storage and authentication.
+FlyHigh - A flight ticket booking system
+
+This project FlyHigh is a Flight Ticket Booking System that allows users to book flights, view their booking history, and allows administrators to manage flights by adding and deleting them. The application is built using HTML, CSS, JavaScript, and utilizes Firebase for data storage and authentication.
 
 Features
+
 User Registration and Login: Users can create an account or log in to the system using their credentials.
 
 Flight Booking: Users can search for flights, select a flight, and book tickets for their desired travel dates.
