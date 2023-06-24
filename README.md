@@ -12,6 +12,9 @@ View Booking History: Users can view their previous flight bookings and check de
 
 Admin Dashboard: Admins have access to a dashboard where they can manage flights. They can add new flights, delete existing flights, and view the current bookings.
 
+It allows only authorized admins to get into admin portal i.e., e-mail address ending with "ac.in"
+
+
 Technologies Used
 
 
