@@ -101,3 +101,46 @@ ul li:hover a{
     margin-top: 400px;
     margin-right: 200px;
 }
+
+@media (max-width: 600px) {
+    .sidemenu {
+      left: 0;
+    }
+    body{
+        background-image: url("https://images.pexels.com/photos/62623/wing-plane-flying-airplane-62623.jpeg?cs=srgb&dl=pexels-pixabay-62623.jpg&fm=jpg");
+        background-repeat: no-repeat;
+        background-size: 500px 1000px;
+    }
+    
+    .slide .sidemenu h1 {
+      font-size: 40px;
+      margin-top: 20px;
+    }
+    
+    .slide ul .fa-solid {
+      top: 5px;
+      right: 10px;
+      font-size: 26px;
+    }
+    
+    .user-container {
+      margin-top: 150px;
+      margin-left: 20px;
+      width: 90%;
+    }
+    
+    .special-container {
+      margin: 20px auto;
+      width: 90%;
+      height: auto;
+    }
+    
+    .special-container p {
+      font-size: 16px;
+    }
+    
+    .feature {
+      margin-top: 200px;
+      margin-right: 20px;
+    }
+  }

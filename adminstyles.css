@@ -1,32 +1,28 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-body{
+
+body {
   background-image: url("https://media.istockphoto.com/id/1332501286/photo/aerial-flying-airplane-and-sky-landscape-close-up.jpg?s=170667a&w=0&k=20&c=dM5w_73VjhgAhE0tSeJLC_2Cpp1zu-3zsCS38_3DdrU=");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-header h1{
+header h1 {
   color: white;
 }
 
-
 .options-container {
-  margin-top: 300px;
-  margin-left: 200px;
-  background-color: #f2f2f2;
+  margin-top: 20vh;
+  margin-left: 5vw;
   padding: 20px;
   text-align: center;
-  border: 1px solid #555;
-  box-shadow: 8px 8px;
-  max-width: 400px;
-  background-color: #ffffff;
+  max-width: 90vw;
+  background-color: transparent;
   border-radius: 4px;
-  box-shadow: 8px 8px;
 }
 
 .option {
@@ -49,4 +45,23 @@ header h1{
 
 .selected {
   background-color: #a8dadc;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: url("https://media.istockphoto.com/id/1332501286/photo/aerial-flying-airplane-and-sky-landscape-close-up.jpg?s=170667a&w=0&k=20&c=dM5w_73VjhgAhE0tSeJLC_2Cpp1zu-3zsCS38_3DdrU=");
+    background-repeat: no-repeat;
+    background-size: 1500px 1900px;
+  }
+  .options-container {
+    margin-top: 10vh;
+    margin-left: 2vw;
+    padding: 10px;
+  }
+  
+  .option {
+    width: 120px;
+    padding: 8px 16px;
+    margin: 8px;
+  }
 }
