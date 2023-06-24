@@ -20,6 +20,7 @@ body{
     transition: 0.5s ease;
     box-shadow: 5px 10px #333;
     z-index: 2;
+    scroll-behavior: smooth;
 }
 
 .slide .sidemenu h1{
