@@ -12,7 +12,7 @@ body{
 }
 
 .sidemenu{
-    height: 80%;
+    height: 100%;
     width: 280px;
     left: -280px;
     position: relative;
