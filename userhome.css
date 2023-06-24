@@ -27,7 +27,7 @@ body{
     color: rgb(29, 179, 238);
     font-weight: 800;
     text-align: center;
-    font-size: 58px;
+    font-size: 40px;
     padding: 10px 0;
     pointer-events: none;
 }
@@ -39,7 +39,7 @@ ul li{
 ul li a{
     color: black;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 18px;
     padding: 30px 0;
     display: block;
     text-transform: capitalize;
