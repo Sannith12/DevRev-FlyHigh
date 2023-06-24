@@ -13,6 +13,8 @@ View Booking History: Users can view their previous flight bookings and check de
 Admin Dashboard: Admins have access to a dashboard where they can manage flights. They can add new flights, delete existing flights, and view the current bookings.
 
 Technologies Used
+
+
 HTML: Used for structuring the web pages and user interface elements.
 
 CSS: Used for styling the web pages and enhancing the visual appeal of the application.
