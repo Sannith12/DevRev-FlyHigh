@@ -1,0 +1,25 @@
+.location-selection{
+    margin-top: 300px;
+    margin-left: 200px;
+    background-color: #f2f2f2;
+    width: 480px;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #555;
+    box-shadow: 8px 8px;
+}
+.location-selection h4{
+    padding: 12px 0;
+    font-size: 28px;
+}
+
+.label-from{
+    padding: 12px 0;
+    font-size: 18px;
+}
+
+.fromLocation{
+    padding: 6px 0;
+    font-size: 18px;
+    font-weight: bold;
+}

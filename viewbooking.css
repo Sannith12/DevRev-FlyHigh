@@ -1,0 +1,34 @@
+
+#list-container{
+    margin-top: 100px;
+    margin-left: 200px;
+    background-color: #f2f2f2;
+    width: 880px;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #555;
+    box-shadow: 8px 8px;
+}
+.table{
+    padding: 12px;
+}
+.thead{
+    background-color: #555;
+}
+
+#tbody1{
+    background-color: blue;
+}
+.thead th{
+    padding: 20px;
+    font-size: 18px;
+    color: wheat;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#tbody1 td{
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
