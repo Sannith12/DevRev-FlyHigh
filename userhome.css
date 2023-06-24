@@ -15,7 +15,7 @@ body{
     height: 80%;
     width: 280px;
     left: -280px;
-    position: absolute;
+    position: relative;
     background-color: #f2f2f2;
     transition: 0.5s ease;
     box-shadow: 5px 10px #333;
