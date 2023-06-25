@@ -14,6 +14,12 @@ Admin Dashboard: Admins have access to a dashboard where they can manage flights
 
 It allows only authorized admins to get into admin portal i.e., e-mail address ending with "ac.in"
 
+If You Want to access admin portal then you need to register using mail id extension "username@orgname.ac.in"
+
+or else you can use below credentials for direct login:
+
+id : 20211a0519@bvrit.ac.in
+password : sannith
 
 Technologies Used
 
