@@ -73,6 +73,9 @@
         function nextPage(){
             var fromLocation = document.querySelector('#fromLocation').value;
             var toLocation = document.querySelector('#toLocation').value;
+
+            //Ensures source and destination locations are different
+            
             if(fromLocation.toString() == toLocation.toString()){
                 alert("Please select different locations for source and destination")
             } else{
@@ -86,13 +89,9 @@
 <script type="module">
     // Import the functions you need from the SDKs you need
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
-    import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js";
+    import { getAuth, signOut } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js";
   
-    import { update, getDatabase, ref, child, onValue, get, set } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js"
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-  
-    // Your web app's Firebase configuration
+    //web app's Firebase configuration
     const firebaseConfig = {
       apiKey: "AIzaSyDHj1q12tQAQ7QLmb6iI-KK0lb9h5cZsnU",
       authDomain: "devrev-1e46b.firebaseapp.com",
@@ -106,7 +105,6 @@
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
   
-    const db = getDatabase();
     const auth = getAuth(app);
     document.getElementById('logout').addEventListener('click', function(){
         signOut(auth).then(() => {

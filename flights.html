@@ -145,20 +145,7 @@
         });
     }
     
-    function GetAllDataOnce(){
-        const dbRef = ref(db);
-        get(child(dbRef, "Flights"))
-        .then((snapshot)=>{
-            
-
-            snapshot.forEach(childSnapshot => {
-                flights.push(childSnapshot.val());
-            });
-
-            AddAllItems(flights)
-        })
-    }
-
+    //Retreving current status of filghts in database
     function GetAllDataRealTime(){
         const dbRef = ref(db , "Flights");
 
@@ -167,8 +154,8 @@
             snapshot.forEach(childSnapshot => {
                 flights.push(childSnapshot.val());
             });
-
-            AddAllItems(flights)
+            //Updating the status of flights list
+            AddAllItems(flights) //flights(flightname, flightID, capacity)
         })
     }
 
